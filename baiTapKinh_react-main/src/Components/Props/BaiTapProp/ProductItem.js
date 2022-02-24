@@ -17,6 +17,10 @@ export default class ProductItem extends Component {
                 them gio hang
             </button>
 
+            <button onClick={()=>{this.props.viewDetail(productItem)}}>
+                xem chi tiết sản phẩm
+            </button>
+
 
             </div>
         )
